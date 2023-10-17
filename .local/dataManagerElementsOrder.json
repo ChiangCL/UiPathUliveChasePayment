@@ -1,0 +1,31 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TableData&Sequence_11",
+        "TEST&Sequence_11",
+        "NotfoundNotice&Sequence_11",
+        "ErrorNameListTextFileURL&Sequence_1",
+        "NotFoundCustomerList&Sequence_13",
+        "PendingCustomerList&Sequence_3",
+        "BuyerFBName&Sequence_3",
+        "BuyerName&Sequence_3",
+        "CheckoutLink&Sequence_3",
+        "Balance&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
