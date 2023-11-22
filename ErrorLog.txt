@@ -1,4 +1,13 @@
-﻿[10/17/2023 12:21:46]Karen Tan: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+﻿[10/24/2023 15:36:13]Yee Vun Chin: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
+   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
+   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
+   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.System.Activities.IAsyncCodeActivity.FinishExecution(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+[10/24/2023 15:49:06]May Lim: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
@@ -6,47 +15,7 @@
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:29:01]Amy Wong: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:29:56]Carol Cheong: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:32:48]常乐: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:34:46]Angie Ng: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:42:53]Amy Wong: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:50:15]Anjelica Clarice George: UiPath.UIAutomationNext.Exceptions.NodeNotFoundException: Could not find the user-interface (UI) element for this action.
+[10/24/2023 15:51:40]Mei: UiPath.UIAutomationNext.Exceptions.NodeNotFoundException: Could not find the user-interface (UI) element for this action.
 
 Possible solutions:
  •  Ensure application is opened and the UI element is visible on the screen at execution time
@@ -63,7 +32,7 @@ Possible solutions:
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:51:11]Colynn Sim: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+[10/24/2023 15:54:21]Angie Ng: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
@@ -71,7 +40,7 @@ Possible solutions:
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 12:51:45]Chew Li Chin: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+[10/24/2023 15:55:15]Yen Lai: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
@@ -79,7 +48,7 @@ Possible solutions:
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 13:18:39]May Lim: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+[10/24/2023 15:57:30]Colynn Sim: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
@@ -87,7 +56,7 @@ Possible solutions:
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 13:23:22]Lau Soo Ling: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+[10/24/2023 16:26:39]En Yee: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
@@ -95,7 +64,7 @@ Possible solutions:
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 13:33:28]Mei: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+[10/24/2023 16:29:17]Chew Li Chin: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
@@ -103,24 +72,7 @@ Possible solutions:
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 13:36:53]Eelyn Han Yei Ling: UiPath.UIAutomationNext.Exceptions.NodeNotFoundException: Could not find the user-interface (UI) element for this action.
-
-Possible solutions:
- •  Ensure application is opened and the UI element is visible on the screen at execution time
- •  Edit the Target of the UI activity and use Validation to debug the issue.
- •  If needed, re-indicate the element as its properties might have changed
- •  Use "Check state" activity to check the application state before executing the action
- •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive
-   at UiPath.UIAutomationNext.Activities.TargetCommonLogic.GetSearchResultAsync(IRuntimeContext runtimeContext, ITargetAnchorable target, CancellationToken token)
-   at UiPath.UIAutomationNext.Activities.NTypeInto.UiPath.UIAutomationNext.Activities.IVerifyExecutionActivity.ExecuteAsync(IRuntimeContext context, IActivityData data, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.Services.VerifyExecutionService.ExecuteWithVerifyAsync[T](IVerifyExecutionActivity activity, IVerifyExecutionRuntimeContext verifyContext, IRuntimeContext context, T data, CancellationToken token)
-   at UiPath.UIAutomationNext.Activities.NTypeInto.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 13:37:48]Siew Ling: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+[10/24/2023 16:35:20]Carol Cheong: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
@@ -128,23 +80,7 @@ Possible solutions:
    at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
    at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 13:55:06]Yen Lai: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 14:08:04]Lim Sweelin: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
-   at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
-   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
-[10/17/2023 14:26:38]Lee Ching: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
+[10/24/2023 16:36:17]Mandy Lim: UiPath.UIAutomationNext.Exceptions.UiAutomationException: Unable to find the searched element.
    at UiPath.UIAutomationNext.Activities.NMouseScroll.MouseScrollToElementAsync(IRuntimeContext runtimeContext, IMouseScrollData data, Int32 timeout, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.NMouseScroll.ExecuteAsync(IActivityContextWrapper context, CancellationToken cancellationToken)
    at UiPath.UIAutomationNext.Activities.TargetBase.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
